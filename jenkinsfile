@@ -41,6 +41,7 @@ input('Do you want to proceed?')
         stage('deploy'){
 steps{
 echo "Deploy into tomcat"
+build 'deploy-war-from-jenkins-to-tomcat'
 }
 }
 }

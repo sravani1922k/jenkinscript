@@ -30,7 +30,7 @@ pipeline {
         }
         stage('test'){
 steps{
-echo bat "mvn -f Day1-BankApp/pom.xml test"
+bat "mvn -f Day1-BankApp/pom.xml test"
 }
 }
         stage('deploy'){
